@@ -1,1 +1,44 @@
+$peach: #F4F6F5;
+$burgundy:#B73C54;
 
+#logo{ 
+    width: 100%;
+    height: 40%;
+}
+#logo > img{
+    margin: auto;
+    width: auto;
+    display: block;
+    height: 100%;
+    width: auto;
+
+}
+.socialMediaContainer{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.socialMediaContainer>img{
+
+    margin: auto 0.5em;
+    width: auto;
+    height: 80%;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.roundedBack{
+    margin: auto;
+    display: block;
+    width: 80%;
+    background-color: $burgundy;
+    border: $burgundy solid 4px;
+    border-radius: 1em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    
+}
+
+ion-title{
+    color: $peach;
+}
