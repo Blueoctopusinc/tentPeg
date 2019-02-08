@@ -1,0 +1,7 @@
+{
+  "name": "tentPeg",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
