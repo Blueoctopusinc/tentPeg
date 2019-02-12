@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>emailRegistration</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<form [formGroup]="regForm" (ngSubmit)="AngAuth()">
+  <ion-item>
+    <ion-label>Email</ion-label>
+    <ion-input type="Email" formControlName="email"></ion-input>
+  </ion-item>
+</form>
+</ion-content>

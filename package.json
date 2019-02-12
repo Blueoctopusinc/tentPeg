@@ -27,7 +27,9 @@
     "@ionic-native/splash-screen": "^5.0.0",
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^4.0.0",
+    "angularfire2": "^5.1.1",
     "cordova-android": "^7.1.4",
+    "cordova-plugin-buildinfo": "2.0.2",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-facebook4": "4.1.0",
     "cordova-plugin-ionic-keyboard": "^2.1.3",
@@ -36,9 +38,12 @@
     "cordova-plugin-splashscreen": "^5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
     "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-universal-links-plugin": "1.2.1",
     "core-js": "^2.5.4",
     "firebase": "^5.8.2",
-    "rxjs": "~6.3.3",
+    "promise-polyfill": "^8.1.0",
+    "rxjs": "^6.4.0",
+    "rxjs-compat": "^6.4.0",
     "zone.js": "~0.8.29"
   },
   "devDependencies": {
@@ -85,7 +90,14 @@
         "FACEBOOK_HYBRID_APP_EVENTS": "false",
         "FACEBOOK_ANDROID_SDK_VERSION": "4.38.1"
       },
-      "cordova-plugin-nativestorage": {}
+      "cordova-plugin-nativestorage": {},
+      "cordova-universal-links-plugin": {},
+      "cordova-plugin-buildinfo": {},
+      "cordova-plugin-googleplus": {
+        "REVERSED_CLIENT_ID": "223275869536-5s0kcb873a11p7fqi3bbtr352novedts.apps.googleusercontent.com",
+        "WEB_APPLICATION_CLIENT_ID": "223275869536-5s0kcb873a11p7fqi3bbtr352novedts.apps.googleusercontent.com",
+        "PLAY_SERVICES_VERSION": "11.8.0"
+      }
     },
     "platforms": [
       "android"

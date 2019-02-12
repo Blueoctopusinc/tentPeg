@@ -90,9 +90,11 @@
         <variable name="FACEBOOK_ANDROID_SDK_VERSION" value="4.38.1" />
     </plugin>
     <plugin name="cordova-plugin-nativestorage" spec="2.3.2" />
+    <plugin name="cordova-universal-links-plugin" spec="1.2.1" />
+    <plugin name="cordova-plugin-buildinfo" spec="2.0.2" />
     <engine name="android" spec="^7.1.4" />
-    <plugin name="cordova-plugin-googleplus" spec="7.0.0">
-        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.859636071301-kr2o2lhpe559aig9hcqr9n7gbjoji8el" />
+    <plugin name="cordova-plugin-googleplus" spec="~7.0.0">
+        <variable name="REVERSED_CLIENT_ID" value="223275869536-5s0kcb873a11p7fqi3bbtr352novedts.apps.googleusercontent.com" />
         <variable name="WEB_APPLICATION_CLIENT_ID" value="223275869536-5s0kcb873a11p7fqi3bbtr352novedts.apps.googleusercontent.com" />
         <variable name="PLAY_SERVICES_VERSION" value="11.8.0" />
     </plugin>
